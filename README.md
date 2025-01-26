@@ -2,7 +2,7 @@
 - collection of some scripts or tools that are handy and make work eaiser.
 - Mostly written by me and some are inspired for others.
 
-## InsertAllSlides.ppam
+## 1. InsertAllSlides.ppam
 
 - This is Powerpoint Add-in (VBA macro/script)
 - What it does?: insert all slides from all presentations in the same folder as the currently active presentation (but won't try to insert slides from the current presentation into itself).
@@ -17,7 +17,7 @@
 - Usage: open a ppt to which you want to add the slides from all other ppts within the same folder. Click on the 'Insert slides from folder' button to import all the slides. _Hurray!_
 
 
-## magic-png2gif
+## 2. magic-png2gif
 
 - Batch script (cmd.exe or ps)
 - Combine all images within each folder (along side this script) into a single gif named as the folder name.
@@ -25,7 +25,7 @@
 - Needs [magick](https://imagemagick.org/)
 - Additional resources: [Magick.NET](https://github.com/dlemstra/Magick.NET)
 
-## pandoc-img2ppt
+## 3. pandoc-img2ppt
 
 - Batch script
 - Combine all images to a single ppt.
@@ -33,14 +33,14 @@
 - Needs [pandoc](https://pandoc.org/installing.html)
 - Run it from dir where images are there along side this script. It creates an intermediary markdown file.
 
-## pandoc-MD2PPTX
+## 4. pandoc-MD2PPTX
 
 - Drag and drop a markdown file over this script to convert it into a ppt.
 - markdown file should be well formatted as slides.
 - Needs [pandoc](https://pandoc.org/installing.html)
 
 
-## QuickCopyAIO_v2
+## 5. QuickCopyAIO_v2
 
 - needs [Autohotkey](https://www.autohotkey.com/) Version 2.x
 - AutoHotKey Script to quickly paste text or images from clipboard to a target application.
