@@ -16,28 +16,33 @@
   - This will create 'Insert slides from folder' ribbon button in Developer tab > 'Custom' group
 - Usage: open a ppt to which you want to add the slides from all other ppts within the same folder. Click on the 'Insert slides from folder' button to import all the slides. _Hurray!_
 
-## img2ppt
-
-- needs [pandoc](https://pandoc.org/installing.html)
-- run it from dir where images are there
 
 ## magic-png2gif
 
-- needs [magick](https://imagemagick.org/)
-- additional resources: [Magick.NET](https://github.com/dlemstra/Magick.NET)
+- Batch script (cmd.exe or ps)
+- Combine all images within each folder (along side this script) into a single gif named as the folder name.
+- assumes all images are of same size and in png format.
+- Needs [magick](https://imagemagick.org/)
+- Additional resources: [Magick.NET](https://github.com/dlemstra/Magick.NET)
+
+## pandoc-img2ppt
+
+- Batch script
+- Combine all images to a single ppt.
+- Takes both .jpg and .png files.
+- Needs [pandoc](https://pandoc.org/installing.html)
+- Run it from dir where images are there along side this script. It creates an intermediary markdown file.
 
 ## pandoc-MD2PPTX
 
-- needs [pandoc](https://pandoc.org/installing.html)
+- Drag and drop a markdown file over this script to convert it into a ppt.
+- markdown file should be well formatted as slides.
+- Needs [pandoc](https://pandoc.org/installing.html)
 
-## Aria-quick_dwnld
-
-- needs [aria2c](https://aria2.github.io/)
-
-## Pandoc-img2ppt
-
-- to convert all images in the folder to ppt.
 
 ## QuickCopyAIO_v2
 
-- needs [Autohotkey](https://www.autohotkey.com/)
+- needs [Autohotkey](https://www.autohotkey.com/) Version 2.x
+- AutoHotKey Script to quickly paste text or images from clipboard to a target application.
+- There are two versions of the script one for depricated AHK v1.1 (at now archived [repository](https://github.com/drmdshahid/QuickCopyAHK) ) and another for 2.x (this). They are intercompatible.
+- Use case: Quickly collect snippets of text into a notetaking app or slide show while reading a document. Saves a lot of labour!
